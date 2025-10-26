@@ -42,26 +42,20 @@ Pip (gerenciador de pacotes do Python)
 
 # Instalação
 Clone o repositório:
-bash
 git clone <seu-repositorio>
 cd ML-Saude-doencas-cardiacas
 
 Instale as dependências:
-bash
 pip install streamlit pandas numpy matplotlib seaborn scikit-learn
 
 Execute a aplicação:
-bash
 python -m streamlit run app.py
 
 # Nota Importante
 
 No Windows, use sempre:
-
-bash
 python -m streamlit run app.py
 Execução Alternativa (Ambiente Virtual - Recomendado)
-
 
 # Criar ambiente virtual
 
@@ -78,26 +72,24 @@ pip install -r requirements.txt
 # Executar
 
 python -m streamlit run app.py
-  Estrutura do Projeto
-text
-ML-Saude-doencas-cardiacas/
-│
-├── app.py                 # Aplicação principal
-├── Medicaldataset.csv     # Dataset médico
-├── requirements.txt       # Dependências do projeto
-└── README.md             # Este arquivo
+
+Estrutura do Projeto
+app.py                 
+Medicaldataset.csv    
+requirements.txt       
+README.md             
 
 # Como Usar
 
-Na aba "Sobre os Dados": Visualize informações do dataset
+Sobre os Dados": Visualize informações do dataset
 
-Na aba "Análise Exploratória": Explore estatísticas e visualizações
+Análise Exploratória": Explore estatísticas e visualizações
 
-Na aba "ML Supervisionado": Treine modelos de classificação
+ML Supervisionado": Treine modelos de classificação
 
-Na aba "ML Não-Supervisionado": Execute clusterização
+ML Não-Supervisionado": Execute clusterização
 
-# Resultados Esperados
+# Resultados
 
 Acurácia de classificação acima de 80%
 
@@ -117,7 +109,7 @@ Configure para executar app.py
 
 # Autor
 
-[Bruno] - Projeto de Machine Learning Aplicado à Saúde
+Bruno Alexandre - Projeto de Machine Learning Aplicado à Saúde
 
 # Licença
 
