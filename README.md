@@ -42,8 +42,8 @@ Pip (gerenciador de pacotes do Python)
 
 # Instalação
 Clone o repositório:
-git clone <seu-repositorio>
-cd ML-Saude-doencas-cardiacas
+git clone <(https://github.com/Brun00Sillva/ml-saude-cardiacas.git)>
+cd ml-saude-cardiacas
 
 Instale as dependências:
 pip install streamlit pandas numpy matplotlib seaborn scikit-learn
@@ -54,7 +54,9 @@ python -m streamlit run app.py
 # Nota Importante
 
 No Windows, use sempre:
+
 python -m streamlit run app.py
+
 Execução Alternativa (Ambiente Virtual - Recomendado)
 
 # Criar ambiente virtual
@@ -114,3 +116,4 @@ Bruno Alexandre - Projeto de Machine Learning Aplicado à Saúde
 # Licença
 
 Este projeto é para fins educacionais.
+
