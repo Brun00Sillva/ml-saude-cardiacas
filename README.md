@@ -45,7 +45,7 @@ Pip (gerenciador de pacotes do Python)
 
 Clone o repositório:
 
-git clone <(https://github.com/Brun00Sillva/ml-saude-cardiacas.git)>
+git clone (https://github.com/Brun00Sillva/ml-saude-cardiacas.git)
 
 cd ml-saude-cardiacas
 
@@ -82,9 +82,13 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 
 Estrutura do Projeto
-app.py                 
-Medicaldataset.csv    
-requirements.txt       
+
+app.py 
+
+Medicaldataset.csv  
+
+requirements.txt  
+
 README.md             
 
 # Como Usar
@@ -122,5 +126,6 @@ Bruno Alexandre - Projeto de Machine Learning Aplicado à Saúde
 # Licença
 
 Este projeto é para fins educacionais.
+
 
 
