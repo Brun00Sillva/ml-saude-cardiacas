@@ -36,19 +36,25 @@ Target: Result (positive/negative para doença cardíaca)
 # Como Executar
 
 Pré-requisitos
+
 Python 3.8 ou superior
 
 Pip (gerenciador de pacotes do Python)
 
 # Instalação
+
 Clone o repositório:
+
 git clone <(https://github.com/Brun00Sillva/ml-saude-cardiacas.git)>
+
 cd ml-saude-cardiacas
 
 Instale as dependências:
+
 pip install streamlit pandas numpy matplotlib seaborn scikit-learn
 
 Execute a aplicação:
+
 python -m streamlit run app.py
 
 # Nota Importante
@@ -116,4 +122,5 @@ Bruno Alexandre - Projeto de Machine Learning Aplicado à Saúde
 # Licença
 
 Este projeto é para fins educacionais.
+
 
